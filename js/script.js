@@ -323,14 +323,10 @@ let studant = [{
     country: "India"
 }];
 
-// const StudantData1 = document.getElementById("StudantData", studant[1].name);
-
-// StudantData.innerHTML += (`<div class="col-4"><div class="card p-3"><h3>Name : ${studant[0].name}</h3><h3>lname : ${studant[0].lname}</h3></div></div> `);
-// StudantData1.innerHTML += (`<div class="col-4"><div class="card p-3">Name : ${studant[1].name}</div></div> `);
-
 for(let i = 0; i < studant.length; i++){
     
     StudantData.innerHTML += (`<div class="col-4"><div class="card p-3"><h3>Name : ${studant[i].name}</h3><h3>lname : ${studant[i].lname}</h3><h3>age : ${studant[i].age}</h3><h3>gender : ${studant[i].gender}</h3><h3>grId : ${studant[i].grId}</h3><h3>gmail : ${studant[i].gmail}</h3><h3>contact : ${studant[i].contact}</h3><h3>hobby : ${studant[i].hobby}</h3><h3>address : ${studant[i].address.place}</h3><h3>city : ${studant[i].city}</h3><h3>country : ${studant[i].country}</h3></div></div>`);
 
     console.log(studant[i].lname);
 };
+
